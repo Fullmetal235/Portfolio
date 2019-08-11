@@ -1,0 +1,168 @@
+body{
+    margin: 0%;
+    font-family: 'work sans', sans-serif;
+    font-weight: 300;
+    background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+
+nav{
+    float: right;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 14px; 
+   cursor: pointer;
+}
+
+nav a:hover {
+    color: rgb(104, 18, 216);
+
+}
+
+nav a:before {
+    content: '';
+    display: block;
+    height: 5px;
+    
+    background-color: dodgerblue;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+.name {
+  margin-top: 100px;
+  margin-left: 300px;
+  font-size: 50px;
+}
+.title {
+  margin-left: 500px;
+  margin-top: -50px
+}
+
+
+.btn_signup {
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    float: right;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.btn_login {
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    float: right;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    padding: 15px;
+    color: white;
+  }
+
+  p {
+    padding:0 15px;
+    color: white;
+  }
+
+
+
+.space-images {
+  .space-things();
+
+  img {
+    width: 28%;
+    margin: 20px 2.5%;
+    border-radius: 20px;
+    height: 100%;
+  }
+}
+
+.visit-planets {
+  padding: 15px;
+
+  h3 {
+    margin-top: 11px;
+  }
+
+  p {
+    margin-top: 13px;
+  }
+}
+
+.walk {
+  margin-top: 60px;
+  border-top: 1px solid @main-border-color;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
+
+  .walk-text {
+    width: 50%;
+
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    p {
+      margin-bottom: 26px;
+    }
+  }
+
+    
+
+
+
+  .walk-img {
+    width: 46%;
+    margin-left: 4%;
+    
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+  }
+}
+
+.btm_btn {
+    color: white;
+}
+

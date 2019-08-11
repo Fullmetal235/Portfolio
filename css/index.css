@@ -1,0 +1,334 @@
+.footer {
+  width: 100%;
+  border-top: 2px solid black;
+  background: black;
+}
+.footer p {
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+}
+.width-100 {
+  width: 100%;
+}
+.border-bottom-grey {
+  border-bottom: 1px solid lightgrey;
+}
+.space-things {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.btn_getStarted {
+  background: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  text-decoration-color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  body {
+    margin: 0%;
+    font-family: 'work sans', sans-serif;
+    font-weight: 300;
+  }
+  header {
+    background: #d617d6;
+  }
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .logo {
+    float: left;
+  }
+  nav {
+    float: left;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+  }
+  nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  nav a:hover {
+    color: #000;
+  }
+  nav a:before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: 0;
+    width: 0%;
+    transition: all ease-in-out 250ms;
+  }
+  nav a:hover::before {
+    width: 100%;
+  }
+  .btn_signup {
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    float: right;
+    margin-left: 50px;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .btn_login {
+    border: 2px solid dodgerblue;
+    background-color: dodgerblue;
+    float: right;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+  }
+}
+.tabs {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 47px;
+  background-color: #fff;
+}
+@media (min-width: 1280px) {
+  .tabs {
+    width: 1280px;
+  }
+}
+.tabs .topics {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+}
+.tabs .topics .title {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.tabs .topics .tab {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  color: #fff;
+  background-color: #333;
+  margin: 0 5px;
+  padding: 2px 10px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.tabs .topics .tab:hover {
+  text-decoration: underline;
+}
+.tabs .topics .active-tab {
+  background-color: #fff;
+  color: #333;
+  border: 2px solid #333;
+}
+body {
+  margin: 0%;
+  font-family: 'work sans', sans-serif;
+  font-weight: 300;
+  background: #41295a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F0743, #41295a);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+nav {
+  float: right;
+  margin-right: 20px;
+  margin-top: -50px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  position: relative;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+}
+nav a:hover {
+  color: #6812d8;
+}
+nav a:before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: dodgerblue;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
+.name {
+  margin-top: 100px;
+  margin-left: 300px;
+  font-size: 50px;
+}
+.title {
+  margin-left: 500px;
+  margin-top: -50px;
+}
+.btn_signup {
+  border: 2px solid dodgerblue;
+  background-color: dodgerblue;
+  float: right;
+  margin-left: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+.btn_login {
+  border: 2px solid dodgerblue;
+  background-color: dodgerblue;
+  float: right;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+h1 {
+  padding: 15px;
+  color: white;
+}
+p {
+  padding: 0 15px;
+  color: white;
+}
+.space-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.space-images img {
+  width: 28%;
+  margin: 20px 2.5%;
+  border-radius: 20px;
+  height: 100%;
+}
+.visit-planets {
+  padding: 15px;
+}
+.visit-planets h3 {
+  margin-top: 11px;
+}
+.visit-planets p {
+  margin-top: 13px;
+}
+.walk {
+  margin-top: 60px;
+  border-top: 1px solid red;
+  padding: 50px 60px;
+  display: flex;
+  justify-content: center;
+}
+.walk .walk-text {
+  width: 50%;
+}
+.walk .walk-text h3 {
+  margin-bottom: 10px;
+}
+.walk .walk-text p {
+  margin-bottom: 26px;
+}
+.walk .walk-img {
+  width: 46%;
+  margin-left: 4%;
+}
+.walk .walk-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.btm_btn {
+  color: white;
+}
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: none;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 16px;
+  flex-wrap: wrap;
+}
+@media (min-width: 1200px) {
+  .cards-container {
+    width: 1200px;
+  }
+}
+.cards-container .card {
+  border-bottom: 1px solid lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: none;
+  flex-direction: column;
+  background-color: dodgerblue;
+  width: 380px;
+  margin-bottom: 16px;
+  padding: 24px;
+}
+.cards-container .card .headline {
+  font-size: 25px;
+  font-family: Didot, serif;
+}
+.cards-container .card .author {
+  display: flex;
+  justify-content: none;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 15px;
+}
+.cards-container .card .author .img-container {
+  padding-right: 10px;
+  border-right: 1px solid lightgrey;
+  height: 40px;
+}
+.cards-container .card .author .img-container img {
+  width: 40px;
+}
+.cards-container .card .author span {
+  padding-left: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
